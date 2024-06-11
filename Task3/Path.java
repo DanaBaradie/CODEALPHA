@@ -1,5 +1,4 @@
 package Task3;
-
 import java.util.ArrayList;
 public class Path {
     private ArrayList<Destination> destinations;
