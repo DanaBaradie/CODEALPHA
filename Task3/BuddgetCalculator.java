@@ -2,6 +2,7 @@ package Task3;
 
 public class BuddgetCalculator {
     public double calculateBudget(Path path) {
-        return 5000.0;
+        double ForEveryDestination = 1000.0;
+        return path.getDestinations().size()*ForEveryDestination;
     }
 }
